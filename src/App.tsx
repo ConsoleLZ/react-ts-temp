@@ -1,5 +1,13 @@
+import './App.scss';
+import reactLogo from './assets/react.svg';
+
 function App() {
-	return <h1>小哲自制react模板</h1>;
+	return (
+		<div className="title">
+			<img src={reactLogo} alt="" />
+			小哲自制react模板
+		</div>
+	);
 }
 
 export default App;
